@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    font-size: 14px;
+  }
+
+  #app{
+    width: 100vw;
+  }
+.status{
+  border-radius: 10px;
+  padding: 4px 10px;
+}
+.pending{
+  background-color: #EBEDF0;
+  color: #bbc1cb;
+}
+.in-transit{
+  background-color: #ebf5fd;
+  color: #4ea3eb;
+}
+.delivered{
+  background-color: #ebfdf0;
+  color: #51c35d;
+}
+.delayed{
+  background-color: #fef8eb;
+  color: #f8e0a3;
+}
