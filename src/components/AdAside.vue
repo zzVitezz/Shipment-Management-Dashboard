@@ -1,6 +1,6 @@
 <template>
   <aside class="flex flex-col flex-grow py-7 max-w-[270px] min-w-[270px]">
-    <router-link to="" class="logo">
+    <router-link to="/Home" class="logo">
       <img
         src="https://cdn.dribbble.com/users/763495/screenshots/4651910/attachments/1050891/visual-studio.png"
       />
@@ -26,10 +26,10 @@
       <li class="menu__btn">
         <button>+ Add Shipment</button>
       </li>
-      <router-link to="" class="menu__item">
+      <router-link to="/Home" class="menu__item">
         <AdIcon icon="call" /> <span>Help & Support</span>
       </router-link>
-      <router-link to="" class="menu__item">
+      <router-link to="/Home" class="menu__item">
         <AdIcon icon="logout" /> <span>LogOut</span>
       </router-link>
     </nav>
